@@ -7,7 +7,7 @@ Data Engineering, Data Modeling, and Data Analytics can all be captured in Analy
 
 Using Pewlett Hackard employee data provided in six CSV files, an ERD (Entity Relationship Diagram) is created with the quickdatabasediagram tool to identify data types, primary keys, foreign keys, and other contraints.
 
-![Alt text](EmployEeSQL/QuickDBD-schema.sql.png?raw=true "correlation")
+![Alt text](EmployeeSQL/QuickDBD-schema.sql.png?raw=true "erd")
 
 Then the created schema is exported into VSCode and imported to tables into pdAdmin.
 
