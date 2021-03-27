@@ -7,18 +7,20 @@ Data Engineering, Data Modeling, and Data Analytics can all be captured in Analy
 
 Using Pewlett Hackard employee data provided in six CSV files, an ERD (Entity Relationship Diagram) is created with the quickdatabasediagram tool to identify data types, primary keys, foreign keys, and other contraints.
 
+![Alt text](EmployEeSQL/QuickDBD-schema.sql.png?raw=true "correlation")
+
 Then the created schema is exported into VSCode and imported to tables into pdAdmin.
 
 Once the Pewlett Hackard Employee Database is created, sql postgres is used to query the tables to find the following information:
 
-1. Select the employee number, last name, first name, sex, and salary of all employees, ordered by employee number
-2. Select the first name, last name, and hiring date for all employees hired in 1986
-3. Select the department number, department name, employee number, last name, and first name of all managers of each department
-4. Select the employee number, last name, first name, and department of each employee, ordered by employee number
-5. Select first name, last name, birth date, and sex of all employees whose first name is "Hercules" and last name begins with a "B"
-6. Select employee number, last name, first name, and department name of all employees in the Sales department, ordered by employee number
-7. Select employee number, last name, first name, and department name of all employees in the 'Sales' OR the 'Development' department, ordered by employee number
-8. Count the number of employees, grouped by last name
+1. Gather Employee Information ordered by Employee Number
+2. Find Employees hired in 1986
+3. Query Managers of Each Department
+4. Find all Employees' Number, Name, and Department
+5. Find all Employees birthdate & sex with a name of "Hercules B..."
+6. Locate all Sales Department Employees
+7. Locate all Sales & Development Department Employees
+8. Count Employees by last name
 
 
 # Further Analysis
