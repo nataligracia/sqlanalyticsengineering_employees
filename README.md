@@ -11,7 +11,7 @@ Using Pewlett Hackard employee data provided in six CSV files, an ERD (Entity Re
 
 Then the created schema is exported into VSCode and imported to tables into pdAdmin.
 
-Once the Pewlett Hackard Employee Database is created, sql postgres is used to query the tables to find the following information:
+Once the Pewlett Hackard Employee Database is created, sql postgres is used to query the tables to find the following information, which were saved to CSVs:
 
 1. Gather Employee Information ordered by Employee Number
 2. Find Employees hired in 1986
@@ -27,6 +27,9 @@ Once the Pewlett Hackard Employee Database is created, sql postgres is used to q
 To ensure the data is valid, sqlalchemy is used import the database into a Jupyter Notebook.
 
 Dataframes are created to visualize the information via a Histogram and Bar Chart.
+
+![Alt text](EmployeeSQL/salary_range_histogram.png?raw=true "histogram")
+![Alt text](EmployeeSQL/salary_title_bar.png?raw=true "bar chart")
 
 Data was grouped to ensure visualizations were displaying accurate records and an employee badge ID was also checked.
 
