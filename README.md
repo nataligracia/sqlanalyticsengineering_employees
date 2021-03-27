@@ -10,6 +10,7 @@ Using Pewlett Hackard employee data provided in six CSV files, an ERD (Entity Re
 ![Alt text](EmployeeSQL/QuickDBD-schema.sql.png?raw=true "erd")
 
 Then the created schema is exported into VSCode and imported to tables into pdAdmin.
+  (Order of Import: departments, titles, employees2, salaries, dept_emp, dept_manager)
 
 Once the Pewlett Hackard Employee Database is created, sql postgres is used to query the tables to find the following information, which were saved to CSVs:
 
